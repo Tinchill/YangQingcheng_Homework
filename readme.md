@@ -16,7 +16,7 @@
 
 ​        解压完后文件、文件夹排列如下图所示：
 
-<img src="./readme_figures/file_structure.PNG" alt="file_structure" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/Tinchill/YangQingcheng_Homework/raw/master/readme_figures/file_structure.PNG" alt="file_structure" style="zoom:50%;" />
 
 #### 【检查配置】   
 
