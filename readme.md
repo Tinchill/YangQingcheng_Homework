@@ -16,7 +16,7 @@
 
 ​        解压完后的文件、文件夹排列如下图所示：
 
-<img src="./readme_figures/file_structure.PNG" alt="suofang" style="zoom:50%;" />
+<img src="https://github.com/Tinchill/repository仓库名/raw/main/readme_figures/file_structure.PNG" alt="suofang" style="zoom:50%;" />
 
 #### 【检查配置】   
 
