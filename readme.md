@@ -170,7 +170,7 @@ num_epochs = 51
 
 ​        同时，将**每隔 5 个 epoch** 的损失函数值予以记录并保存其变化曲线至 **./training_loss_change** 路径下：
 
-![figure_2](./readme_figures/figure_2.JPG)
+![figure_2](https://media.githubusercontent.com/media/Tinchill/YangQingcheng_Homework/main/readme_figures/figure_2.jpg)
 
 
 
