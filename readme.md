@@ -16,7 +16,7 @@
 
 ​        解压完后文件、文件夹排列如下图所示：
 
-<img src="https://raw.githubusercontent.com/Tinchill/YangQingcheng_Homework/main/readme_figures/file_structure.png" alt="file_structure" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/Tinchill/YangQingcheng_Homework/main/readme_figures/file_structure.png" alt="file_structure" style="zoom:25%;" />
 
 #### 【检查配置】   
 
@@ -122,7 +122,7 @@
 
 ​        整体训练框架如图所示：
 
-![figure_1](./readme_figures/figure_1.PNG)
+![figure_1](https://media.githubusercontent.com/media/Tinchill/YangQingcheng_Homework/main/readme_figures/figure_1.png)
 
 **训练流程：**
 
