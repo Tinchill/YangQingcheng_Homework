@@ -170,7 +170,7 @@ num_epochs = 51
 
 ​        同时，将**每隔 5 个 epoch** 的损失函数值予以记录并保存其变化曲线至 **./training_loss_change** 路径下：
 
-<img src="https://raw.githubusercontent.com/Tinchill/YangQingcheng_Homework/main/readme_figures/figure_2.jpg" alt="file_structure" width="300" />
+<img src="https://media.githubusercontent.com/media/Tinchill/YangQingcheng_Homework/main/readme_figures/figure_2.jpg" alt="figure_2" width="575" />
 
 
 
@@ -224,11 +224,11 @@ model_pkl = 'net_SGD_lr=0.2_30'
 
 ​        ● 测试图片 0 的检测效果
 
-<img src="https://media.githubusercontent.com/media/Tinchill/YangQingcheng_Homework/main/readme_figures/figure_7.jpg" alt="figure_7" width=650/>
+<img src="https://media.githubusercontent.com/media/Tinchill/YangQingcheng_Homework/main/readme_figures/figure_7.jpg" alt="figure_7" width=635/>
 
 ​        ● 测试图片 1 的检测效果
 
-<img src="https://media.githubusercontent.com/media/Tinchill/YangQingcheng_Homework/main/readme_figures/figure_8.jpg" alt="figure_8" width=650/>
+<img src="https://media.githubusercontent.com/media/Tinchill/YangQingcheng_Homework/main/readme_figures/figure_8.jpg" alt="figure_8" width=635/>
 
 
 
@@ -270,20 +270,20 @@ model_pkl = 'net_SGD_lr=0.2_30'
 
 ​        ● 测试图片 0 的检测效果
 
-<img src="https://media.githubusercontent.com/media/Tinchill/YangQingcheng_Homework/main/readme_figures/figure_11.jpg" alt="figure_11" width=650/>
+<img src="https://media.githubusercontent.com/media/Tinchill/YangQingcheng_Homework/main/readme_figures/figure_11.jpg" alt="figure_11" width=635/>
 
 ​        ● 测试图片 1 的检测效果
 
-<img src="https://media.githubusercontent.com/media/Tinchill/YangQingcheng_Homework/main/readme_figures/figure_12.jpg" alt="figure_12" width=650/>
+<img src="https://media.githubusercontent.com/media/Tinchill/YangQingcheng_Homework/main/readme_figures/figure_12.jpg" alt="figure_12" width=635/>
 
 ○ 对于提升方案C，采用预训练模型 **./pretrained/net_Adagrad_lr=0.01_40.pkl**。
 
 ​        ● 测试图片 0 的检测效果
 
-<img src="https://media.githubusercontent.com/media/Tinchill/YangQingcheng_Homework/main/readme_figures/figure_9.jpg" alt="figure_9" width=650/>
+<img src="https://media.githubusercontent.com/media/Tinchill/YangQingcheng_Homework/main/readme_figures/figure_9.jpg" alt="figure_9" width=635/>
 
 ​        ● 测试图片 1 的检测效果
 
-<img src="https://media.githubusercontent.com/media/Tinchill/YangQingcheng_Homework/main/readme_figures/figure_10.jpg" alt="figure_10" width=650/>
+<img src="https://media.githubusercontent.com/media/Tinchill/YangQingcheng_Homework/main/readme_figures/figure_10.jpg" alt="figure_10" width=635/>
 
 ​        可以看出，采用B、C方案训练得到的模型，其预测结果的锚框范围比原训练方案得到的最优预训练模型更贴近目标。
