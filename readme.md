@@ -16,7 +16,7 @@
 
 ​        解压完后文件、文件夹排列如下图所示：
 
-<img src="https://raw.githubusercontent.com/Tinchill/YangQingcheng_Homework/main/readme_figures/file_structure.png" alt="file_structure" style="zoom:25%;" />
+<img src="https://raw.githubusercontent.com/Tinchill/YangQingcheng_Homework/main/readme_figures/file_structure.png" alt="file_structure" width="300" />
 
 #### 【检查配置】   
 
@@ -186,13 +186,13 @@ num_epochs = 51
 
 ​          在 **./pretrained** 路径下，可以查看各预训练模型的.pkl文件。
 
-<img src="./readme_figures/figure_3.PNG" alt="figure_3" style="zoom:60%;" />
+<img src="https://media.githubusercontent.com/media/Tinchill/YangQingcheng_Homework/main/readme_figures/figure_3.png" alt="figure_3" width="700" />
 
 ​        如果要使用其它预训练模型进行测试，则打开 **test_port.py** 文件，修改 **model_pkl** 变量为所选择的预训练.pkl文件的名称（注意不要带.pkl后缀）。
 
 ​        例：如果希望选择下图红框框住的预训练模型文件
 
-<img src="./readme_figures/figure_4.PNG" alt="figure_4" style="zoom:60%;" />
+<img src="./readme_figures/figure_4.PNG" alt="figure_4" width="200" />
 
 ​        则修改 **test_port.py** 中的 **model_pkl** 变量：（第18行）
 
