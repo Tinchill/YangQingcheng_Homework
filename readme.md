@@ -16,7 +16,7 @@
 
 ​        解压完后文件、文件夹排列如下图所示：
 
-<img src="https://raw.githubusercontent.com/Tinchill/YangQingcheng_Homework/main/readme_figures/file_structure.png" alt="file_structure" width="300" />
+<img src="https://raw.githubusercontent.com/Tinchill/YangQingcheng_Homework/main/readme_figures/file_structure.png" alt="file_structure" width="285" />
 
 #### 【检查配置】   
 
@@ -170,7 +170,7 @@ num_epochs = 51
 
 ​        同时，将**每隔 5 个 epoch** 的损失函数值予以记录并保存其变化曲线至 **./training_loss_change** 路径下：
 
-![figure_2](https://media.githubusercontent.com/media/Tinchill/YangQingcheng_Homework/main/readme_figures/figure_2.jpg)
+<img src="https://raw.githubusercontent.com/Tinchill/YangQingcheng_Homework/main/readme_figures/figure_2.jpg" alt="file_structure" width="300" />
 
 
 
@@ -186,13 +186,13 @@ num_epochs = 51
 
 ​          在 **./pretrained** 路径下，可以查看各预训练模型的.pkl文件。
 
-<img src="https://media.githubusercontent.com/media/Tinchill/YangQingcheng_Homework/main/readme_figures/figure_3.png" alt="figure_3" width="700" />
+<img src="https://media.githubusercontent.com/media/Tinchill/YangQingcheng_Homework/main/readme_figures/figure_3.png" alt="figure_3" width="675" />
 
 ​        如果要使用其它预训练模型进行测试，则打开 **test_port.py** 文件，修改 **model_pkl** 变量为所选择的预训练.pkl文件的名称（注意不要带.pkl后缀）。
 
 ​        例：如果希望选择下图红框框住的预训练模型文件
 
-<img src="https://media.githubusercontent.com/media/Tinchill/YangQingcheng_Homework/main/readme_figures/figure_4.png" alt="figure_4" width="700" />
+<img src="https://media.githubusercontent.com/media/Tinchill/YangQingcheng_Homework/main/readme_figures/figure_4.png" alt="figure_4" width="675" />
 
 ​        则修改 **test_port.py** 中的 **model_pkl** 变量：（第18行）
 
@@ -210,11 +210,11 @@ model_pkl = 'net_SGD_lr=0.2_30'
 
 ​        ○ 测试图片 0
 
-<img src="./readme_figures/figure_5.JPG" alt="figure_5" style="zoom:128%;" />
+<img src="https://media.githubusercontent.com/media/Tinchill/YangQingcheng_Homework/main/readme_figures/figure_5.jpg" alt="figure_5" width=350/>
 
 ​        ○ 测试图片 1
 
-<img src="./readme_figures/figure_6.JPG" alt="figure_6" style="zoom:50%;" />
+<img src="https://media.githubusercontent.com/media/Tinchill/YangQingcheng_Homework/main/readme_figures/figure_6.jpg" alt="figure_6" width=350/>
 
 #### 【效果可视化】
 
@@ -224,11 +224,11 @@ model_pkl = 'net_SGD_lr=0.2_30'
 
 ​        ● 测试图片 0 的检测效果
 
-<img src="./readme_figures/figure_7.JPG" alt="figure_7" style="zoom:88%;" />
+<img src="https://media.githubusercontent.com/media/Tinchill/YangQingcheng_Homework/main/readme_figures/figure_7.jpg" alt="figure_7" width=650/>
 
 ​        ● 测试图片 1 的检测效果
 
-<img src="./readme_figures/figure_8.JPG" alt="figure_8" style="zoom:95%;" />
+<img src="https://media.githubusercontent.com/media/Tinchill/YangQingcheng_Homework/main/readme_figures/figure_8.jpg" alt="figure_8" width=650/>
 
 
 
@@ -270,20 +270,20 @@ model_pkl = 'net_SGD_lr=0.2_30'
 
 ​        ● 测试图片 0 的检测效果
 
-<img src="./readme_figures/figure_11.JPG" alt="figure_11" style="zoom:88%;" />
+<img src="https://media.githubusercontent.com/media/Tinchill/YangQingcheng_Homework/main/readme_figures/figure_11.jpg" alt="figure_11" width=650/>
 
 ​        ● 测试图片 1 的检测效果
 
-<img src="./readme_figures/figure_12.JPG" alt="figure_12" style="zoom:95%;" />
+<img src="https://media.githubusercontent.com/media/Tinchill/YangQingcheng_Homework/main/readme_figures/figure_12.jpg" alt="figure_12" width=650/>
 
 ○ 对于提升方案C，采用预训练模型 **./pretrained/net_Adagrad_lr=0.01_40.pkl**。
 
 ​        ● 测试图片 0 的检测效果
 
-<img src="./readme_figures/figure_9.JPG" alt="figure_9" style="zoom:88%;" />
+<img src="https://media.githubusercontent.com/media/Tinchill/YangQingcheng_Homework/main/readme_figures/figure_9.jpg" alt="figure_9" width=650/>
 
 ​        ● 测试图片 1 的检测效果
 
-<img src="./readme_figures/figure_10.JPG" alt="figure_10" style="zoom:95%;" />
+<img src="https://media.githubusercontent.com/media/Tinchill/YangQingcheng_Homework/main/readme_figures/figure_10.jpg" alt="figure_10" width=650/>
 
 ​        可以看出，采用B、C方案训练得到的模型，其预测结果的锚框范围比原训练方案得到的最优预训练模型更贴近目标。
