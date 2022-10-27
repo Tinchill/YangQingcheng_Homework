@@ -192,7 +192,7 @@ num_epochs = 51
 
 ​        例：如果希望选择下图红框框住的预训练模型文件
 
-<img src="./readme_figures/figure_4.PNG" alt="figure_4" width="200" />
+<img src="https://media.githubusercontent.com/media/Tinchill/YangQingcheng_Homework/main/readme_figures/figure_4.png" alt="figure_4" width="700" />
 
 ​        则修改 **test_port.py** 中的 **model_pkl** 变量：（第18行）
 
