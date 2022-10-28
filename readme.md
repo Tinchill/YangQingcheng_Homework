@@ -28,7 +28,7 @@
 
 #### 【代码文件】
 
-**create_train.py**			准备训练集         
+**- create_train.py**			准备训练集         
 
 ​        将 **./detection/background** 中的JPG背景与目标检测对象 **./detection/target** 中的JPG文件结合。
 
@@ -36,27 +36,27 @@
 
 ​        对目标进行适当旋转、透明化等操作，可以得到 **./detection/sysu_train_merged/images** 下的训练集图片，具体代码同本 .py 文件类似。
 
-**load_data.py**			加载数据
+**- load_data.py**			加载数据
 
 ​        定义Dataset类，加载训练集数据。
 
-**model.py**				模型定义
+**- model.py**				模型定义
 
 ​        从各模块开始，一级级向上定义TinySSD模型。
 
-**train.py**					网络训练
+**- train.py**					网络训练
 
 ​        训练模型，每隔10个epoch保存一次模型至./pretrained路径下。
 
-**test.py**					网络测试
+**- test.py**					网络测试
 
 ​        定义得到并处理边界框的各类函数，为可视化锚框作准备。
 
-**visualize.py**				可视化结果
+**- visualize.py**				可视化结果
 
 ​        预测边界框将其可视化。
 
-**test_port.py**				测试接口
+**- test_port.py**				测试接口
 
 ​        用预训练模型中误差最小的一个，将对./detection/test下图片所预测的目标边界框、置信度等结果可视化。
 
@@ -64,11 +64,11 @@
 
 #### 【文件夹】
 
-**./detection**
+**- ./detection**
 
 ​        目标检测任务的数据集文件夹。
 
-**./pretrained**
+**- ./pretrained**
 
 ​        保存预训练的模型参数。
 
@@ -76,7 +76,7 @@
 
 ​        例：'net_SGD_lr=0.2_40.pkl' 代表用SGD迭代优化器，在0.2的训练步长下，训练到epoch=40时所保存的.pkl文件。
 
-**./training_loss_change**
+**- ./training_loss_change**
 
 ​        保存训练过程中损失函数值的变化曲线图。
 
@@ -84,7 +84,7 @@
 
 ​        例：'SGD_lr=0.2_50_loss_change.jpg'代表用SGD迭代优化器，在0.2的训练步长下，最大训练到epoch=50时，每隔5个epoch的损失函数值变化情况。
 
-**./test_result**
+**- ./test_result**
 
 ​        保存对测试图片的锚框预测结果图。
 
@@ -92,7 +92,7 @@
 
 ​        例：'net_SGD_lr=0.2_40_test_1_result.jpg'，代表使用SGD迭代优化器在0.2的训练步长下，训练到epoch时所保存的.pkl，来预测序号为1的测试图片所得到的锚框预测结果。
 
-**./readme_figures**
+**- ./readme_figures**
 
 ​       *保存本 README 文件所用的图片。*
 
