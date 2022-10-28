@@ -10,11 +10,9 @@
 
 #### 【文件解压】
 
-**注：从Github上下载文件则需要先执行文件解压，直接从邮件下载20354140-杨庆城-TinySSD个人作业.zip 压缩则直接跳过此步。**
+**直接从邮件下载20354140-杨庆城-TinySSD个人作业.zip 压缩可直接跳过此步。**
 
-​        下载后，解压所有压缩包（共4个，包括 **detection.zip、pretrained.zip、test_result.zip、training_loss_change.zip** ）至 **./** 路径，也即**与所有代码文件同一级目录的本级路径**下。
-
-​        解压完后文件、文件夹排列如下图所示：
+​        文件、文件夹排列如下图所示：
 
 <img src="https://raw.githubusercontent.com/Tinchill/YangQingcheng_Homework/main/readme_figures/file_structure.png" alt="file_structure" width="285" />
 
